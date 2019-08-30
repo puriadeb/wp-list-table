@@ -68,6 +68,7 @@ class OWTTableList extends WP_List_Table {
     public function get_hidden_columns() {
 
         //return array("id", "name");
+        return array();
     }
 
     public function get_sortable_columns() {
